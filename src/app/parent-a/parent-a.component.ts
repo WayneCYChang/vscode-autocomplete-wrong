@@ -8,7 +8,9 @@ import { ParentAService } from '../parent-a.service';
 })
 export class ParentAComponent implements OnInit {
 
-  a = this.parentAService
+  b = this.parentAService.
+
+  a = this.parentAService // Type . here
 
   constructor(private parentAService: ParentAService) { }
 
